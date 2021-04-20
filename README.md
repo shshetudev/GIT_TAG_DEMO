@@ -47,6 +47,6 @@
   </p> <br>
   <li><b>Can i create a tag from some past commit?</b></li>
   <p>
-  Yes. git tag v1.2 5fcdb03(commit number)
+  Yes. git tag v1.2 5fcdb03(commit name)
   </p>
 </ul>
