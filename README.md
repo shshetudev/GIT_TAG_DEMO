@@ -7,7 +7,7 @@
   <li><b>Why should i create git tags?</b></li>
   <p>To mark release points for your code/data. To create historic restore points.</p> <br>
   <li><b>When to create git tags?</b></li>
-  <p>When we want to create a release point for a stable version of our code. When we want to create a historic poin for our code/data that can refer at any future time.</p>
+  <p>When we want to create a release point for a stable version of our code. When we want to create a historic point for our code/data that can refer at any future time.</p>
   <li><b>How to create tags in Git?</b></li>
   <p>We can create tags in 4 steps:
   <ol>
