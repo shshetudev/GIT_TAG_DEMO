@@ -9,7 +9,7 @@
   <li><b>When to create git tags?</b></li>
   <p>When we want to create a release point for a stable version of our code. When we want to create a historic poin for our code/data that can refer at any future time.</p>
   <li><b>How to create tags in Git?</b></li>
-  <p>We can create tags in 5 steps:
+  <p>We can create tags in 4 steps:
   <ol>
     <li><b>Checkout to the branch in which we want to attach git tag: </b> git checkout master </li>
     <li>
@@ -23,6 +23,30 @@
     </li>
   </ol>
   </p>
+  <li><b>How to delete git tags?</b></li>
+  <p>
+  <ul>
+    <li><b>Delete tag from local: </b> git tag -d v1.0</li>
+    <li><b>Delete from remote: </b>
+      <ul>
+        <li>git push origin -d v1.0</li>
+        <li>git push origin --delete v1.0</li>
+      </ul>
+    </li>
+    <li><b>Delete multiple tags at once:</b> 
+      <ul>
+        <b>Delete from local: </b> git tag -d v1.0 v1.1 <br>
+        <b>Delete from remote: </b> git push origin -d v1.0 v1.1
+      </ul>
+    </li>
+</ul>
+</p> <br>
   <li><b>How do we checkout tags in git?</b></li>
+  <p>
+  We can't checkout tags in Git. We can create a branch from a tag and checkout the branch: git checkout -b releasevar1 v1.0
+  </p> <br>
   <li><b>Can i create a tag from some past commit?</b></li>
+  <p>
+  Yes. git tag v1.2 5fcdb03(commit number)
+  </p>
 </ul>
