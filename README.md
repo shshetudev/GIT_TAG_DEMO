@@ -1,5 +1,5 @@
 <h1>One Min Introduction to GIT TAG!</h1>
-<p>In this Tutorial we will learn about Git Tag. It will take just 5 mintues to get a basic idea about git tag. Let's start<p>
+<p>In this Tutorial we will learn about Git Tag. It will take just one mintue to get a basic idea about git tag. Let's start<p>
   
   <ul>
   <li><b>What are git tags?</b></li>
