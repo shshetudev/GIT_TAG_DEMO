@@ -14,7 +14,7 @@
     <li><b>Checkout to the branch in which we want to attach git tag: </b> git checkout master </li>
     <li>
       <b>Create tag with specific version name: </b> git tag v1.0 <br>
-      <p>We can also creaet annotated tag: git tag -a v1.1 -m "tag for release v1.1"</p> 
+      <b>We can also create annotated tag:</b> git tag -a v1.1 -m "tag for release v1.1" 
     </li>
    <li><b>Display/Show tags: </b> git tag -l "v1.*" </li>
     <li>
