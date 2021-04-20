@@ -9,6 +9,20 @@
   <li><b>When to create git tags?</b></li>
   <p>When we want to create a release point for a stable version of our code. When we want to create a historic poin for our code/data that can refer at any future time.</p>
   <li><b>How to create tags in Git?</b></li>
+  <p>We can create tags in 5 steps:
+  <ol>
+    <li><b>Checkout to the branch in which we want to attach git tag: </b> git checkout master </li>
+    <li>
+      <b>Create tag with specific version name: </b> git tag v1.0 <br>
+      <p>We can also creaet annotated tag: git tag -a v1.1 -m "tag for release v1.1"</p> 
+    </li>
+   <li><b>Display/Show tags: </b> git tag -l "v1.*" </li>
+    <li>
+      <b>Push tags to remote: </b> git push origin v1.0 <br>
+      <b>Push all tags at once: </b> git push origin --tags or git push --tags
+    </li>
+  </ol>
+  </p>
   <li><b>How do we checkout tags in git?</b></li>
   <li><b>Can i create a tag from some past commit?</b></li>
 </ul>
